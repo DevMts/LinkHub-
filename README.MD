@@ -22,7 +22,7 @@ Este é um site pessoal desenvolvido por Mateus Carvalho para centralizar links 
 ## Estrutura de Arquivos
 
 ```plaintext
-/Link-Bio
+/LinkHub
 |-- index.html
 |-- css/
     |-- style.css
