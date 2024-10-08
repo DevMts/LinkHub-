@@ -10,59 +10,69 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="assets/index.js" defer></script>
+    <link rel="icon" href="img/papagaio.png" type="image/x-icon">
+
 </head>
 
-<body>
-    
+<body onload="loading()">
+    <div id="loanding">
+        <div id="code-loader">
+            <span>{</span><span>}</span>
+        </div>
+    </div>
     <div id="max">
-    <header>
-        <div class="top">
-            <img src="img/Iconperfil.jpg" alt="foto perfil" class="icon">
-            <div class="infos">
-                <span class="name">Mateus</span>
-                <span class="work">Desenvolvedor Web</span>
+        <header>
+            <div class="top">
+                <img src="img/Iconperfil.jpg" alt="foto perfil" class="icon">
+                <div class="infos">
+                    <span class="name">Mateus</span>
+                    <span class="work">Desenvolvedor Web</span>
+                </div>
+                <div class="skills-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                </div>
+                <div class="theme">
+                    <button class="btn" id="dark"></button>
+                </div>
             </div>
-            <div class="skills-icons">
-                <i class="fab fa-html5"></i>
-                        <i class="fab fa-css3-alt"></i>
-                        <i class="fab fa-js"></i>
+        </header>
+        <main>
+
+            <p class="redes">Me Encontre Aqui...</p>
+            <div class="container">
+                <div class="Right">
+                    <a href="mailto:mateuscarvalhon2@gmail.com">
+                        <img src="img/email.png" alt="Email">
+                    </a>
+                    <a target=”_blank” href=https://www.linkedin.com/in/mateus-carvalho-87080a251/">
+                        <img src="img/linkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+                <div class="Left">
+                    <a target=”_blank” href="https://www.instagram.com/mts.rlx7?igsh=d3RpZ2tnaTNyZzc1">
+                        <img src="img/instagram.png" alt="Instagram">
+                    </a>
+                    <a target=”_blank” href="https://github.com/DevMts">
+                        <img src="img/gitHub.png" alt="github">
+                    </a>
+                </div>
             </div>
-            <div class="theme">
-                <button class="btn" id="dark"></button>
+            <div class="container2">
+                <p>Portifólio</p>
+                <img src="img/mac.gif" alt="" class="portifolio">
             </div>
-        </div>
-    </header>
-    <main>
-        
-        <p class="redes">Me Encontre Aqui...</p>
-        <div class="container">
-            <div class="Right">
-                <a href="mailto:mateuscarvalhon2@gmail.com" >
-                    <img src="img/email.png" alt="Email">
-                </a>
-                <a target=”_blank” href=https://www.linkedin.com/in/mateus-carvalho-87080a251/">
-                    <img src="img/linkedin.png" alt="LinkedIn">
-                </a>
-            </div>
-            <div class="Left">
-                <a target=”_blank” href="https://www.instagram.com/mts.rlx7?igsh=d3RpZ2tnaTNyZzc1">
-                    <img src="img/instagram.png" alt="Instagram">
-                </a>
-                <a target=”_blank” href="https://github.com/DevMts">
-                    <img src="img/gitHub.png" alt="github">
-                </a>
-            </div>
-        </div>
-        <div class="container2">
-            <p>Portifólio</p>
-            <img src="img/mac.gif" alt=""  class="portifolio">
-        </div>
-    </main>
-    <footer>
-        <iframe style="border-radius:0 0 12px 12px" src="https://open.spotify.com/embed/playlist/5pkQxKhLvRIzNzN3uPyrPD?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </footer>
+        </main>
+        <footer>
+            <iframe style="border-radius:0 0 12px 12px"
+                src="https://open.spotify.com/embed/playlist/5pkQxKhLvRIzNzN3uPyrPD?utm_source=generator&theme=0"
+                width="100%" height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+        </footer>
     </div>
 </body>
 
