@@ -4,7 +4,5 @@ function loading(){
             document.getElementById('code-loader').style.display = 'none'
             document.getElementById('max').style.display = 'block'
         }, 2000);
-        
-
         }
 }

@@ -16,6 +16,7 @@ Este é um site pessoal desenvolvido por Mateus Carvalho para centralizar links 
 
 - HTML5
 - CSS3
+- JS
 - FontAwesome para ícones
 - Montserrat Font do Google Fonts
 
@@ -26,10 +27,8 @@ Este é um site pessoal desenvolvido por Mateus Carvalho para centralizar links 
 |-- index.html
 |-- css/
     |-- style.css
+|-- assets/
+    |-- index.js
 |-- img/
     |-- Iconperfil.jpg
-    |-- email.png
-    |-- instagram.png
-    |-- linkedin.png
-    |-- github.png
     |-- mac.gif
