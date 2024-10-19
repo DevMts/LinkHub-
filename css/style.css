@@ -147,7 +147,6 @@ main {
     font-size: 1.5rem;
     color: white;
     font-weight: 500;
-    border: 1px solid black;
 
 }
 
@@ -215,7 +214,6 @@ main {
     margin-bottom: 1rem;
     margin-top: 1rem;
     color: rgba(255, 255, 255, 0.89);
-    border: 1px  solid rgba(255, 255, 255, 0.89);
 
 }
 
