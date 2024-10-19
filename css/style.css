@@ -149,6 +149,14 @@ main {
     font-weight: 500;
 
 }
+#frase{
+    font-size: 1rem;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: #fff;
+}
 
 .Left {
     /* border: 1px solid  blue; */
